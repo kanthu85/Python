@@ -30,4 +30,7 @@ print("sum of 3+4 is ",sum)
 #print with input value input is always a string so, converting x,y to integer.
 x=int(input("enter X value:"))
 y=int(input("enter y value:"))
-print("sum of {1} and {0} is:".format(y,x), x+y)
+
+#using formated string literals(f-strings)
+print("sum of {1} and {0} is:".format(y,x), x+y) 
+print(f"sum of {x} and {y} is:", x+y)
