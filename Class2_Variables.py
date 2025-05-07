@@ -48,7 +48,6 @@ immuteString ='YouTube'
 #but to print we use slicing and add string before and after.
 print('My'+immuteString[3:7]) #output: MyTube
 
-
 #String Length -The len() function returns the length of a string:
 a = "Hello, World!"
 print(len(a))
