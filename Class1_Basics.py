@@ -34,3 +34,5 @@ y=int(input("enter y value:"))
 #using formated string literals(f-strings)
 print("sum of {1} and {0} is:".format(y,x), x+y) 
 print(f"sum of {x} and {y} is:", x+y)
+
+#---------  Continue With Variables in Next Class ----------------
