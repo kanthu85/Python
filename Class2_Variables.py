@@ -47,3 +47,5 @@ immuteString ='YouTube'
 #immuteString[0:1]='My' #TypeError: 'str' object does not support item assignment
 #but to print we use slicing and add string before and after.
 print('My'+immuteString[3:7]) #output: MyTube
+
+#Continue With String Methods in Next Class
