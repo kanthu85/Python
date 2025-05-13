@@ -53,8 +53,12 @@ fruits.discard('mango')  # No error if element doesn't exist
 print('try to remove not available item item from set with discard method to avoid error :',fruits)
 popped_item = fruits.pop()  # Removes and returns an arbitrary element
 print(popped_item)
-fruits.clear()  # Removes all elements
-print(fruits)
+fruits_copy =set()
+fruits_copy =fruits.copy()
+print('fruits copy set: ',fruits_copy)
+fruits_copy.clear()  # Removes all elements
+print(fruits_copy)
+
 
 '''Mathematical Set Operations
 Python sets support mathematical set operations:'''
@@ -74,6 +78,15 @@ print(intersection_set)
 difference_set = set1 - set2  # or set1.difference(set2)
 print(difference_set)
 
+superset = {"f", "e", "d", "c", "b", "a"}
+subset= {"a", "b", "c"}
+
+print('superset check:',superset.issuperset(subset))
+print('subset check:',subset.issubset(superset))
+
+disjoint_distinct1 = {"f", "e", "d"}
+subsdisjoint_distinct2= {"a", "b", "c"}
+print('disjoint check:',disjoint_distinct1.isdisjoint(subsdisjoint_distinct2))
 # Symmetric difference (elements in either set, but not in both)
 symmetric_difference = set1 ^ set2  # or set1.symmetric_difference(set2)
 print(symmetric_difference)
