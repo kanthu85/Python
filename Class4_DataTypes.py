@@ -23,7 +23,7 @@ print(type(z))
 
 lst=[1,2,3] # list is collection which is ordered and changable.Allows duplicate members
 print(type(lst))
-tpl=(1,2,3) #Luple is acollection which is ordered and unchangable/immutable.Allows Duplicate Memnbers
+tpl=(1,2,3) #Tuple is acollection which is ordered and unchangable/immutable.Allows Duplicate Memnbers.Iteration is faster in tuple compared to list.
 print(type(tpl))
 rng= range(6) # The range() function in Python generates a sequence of numbers.
 print(type(rng))
