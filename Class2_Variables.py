@@ -1,6 +1,12 @@
+#constants in python can change. But we can show our intension to not change constants by providing variable in Capital lettors
+PI=3.14
 #variable is a container(box) we put our value
 x=3
+
 y=4
+#fetch address of variable.
+id(x)
+id(y)
 print(x+y)
 print(x+5)
 print(y-2)
